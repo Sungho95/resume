@@ -5,18 +5,16 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: "IU's agency announces official online merchandise shop for fans (2020.04.22)",
-      href:
-        'https://www.gmanetwork.com/entertainment/celebritylife/news/62342/ius-agency-announces-official-online-merchandise-shop-for-fans/story',
+      content: '(2022.10.19) 코드스테이츠 백엔드 Section2 회고',
+      href: 'https://ittrue.tistory.com/210',
     },
     {
-      content: 'K-pop star IU donates ₩100 million to doctors for coronavirus relief (2020.02.27)',
-      href: 'http://www.koreabiomed.com/news/articleView.html?idxno=7550',
+      content: '(2022.09.19) 코드스테이츠 백엔드 Section1 회고',
+      href: 'https://ittrue.tistory.com/157',
     },
     {
-      content: 'IU donates 100 million KRW after being inspired by her fans (2019.12.30)',
-      href:
-        'https://www.allkpop.com/article/2019/12/iu-donates-to-100-million-krw-after-being-inspired-by-her-fans',
+      content: '(2022.08.20) 코드스테이츠 백엔드 41기 합격 후기',
+      href: 'https://ittrue.tistory.com/72',
     },
   ],
 };

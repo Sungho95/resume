@@ -6,9 +6,9 @@ import skill from './skill';
 import project from './project';
 // import presentation from './presentation';
 import education from './education';
-import article from './article';
 import etc from './etc';
 import footer from './footer';
+import article from './article';
 
 import { _global } from './_global';
 
@@ -33,9 +33,9 @@ const Payload: Payload = {
   // experience,
   project,
   // presentation,
-  article,
   education,
   etc,
+  article,
   footer,
 
   _global,
@@ -50,8 +50,8 @@ interface Payload {
   project: IProject.Payload;
   // presentation: IPresentation.Payload;
   education: IEducation.Payload;
-  article: IArticle.Payload;
   etc: IEtc.Payload;
+  article: IArticle.Payload;
   footer: IFooter.Payload;
 
   _global: IGlobal.Payload;
