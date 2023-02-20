@@ -14,6 +14,12 @@ const profile: IProfile.Payload = {
     title: '박성호',
     small: '(백엔드)',
   },
+
+  notice: {
+    title: '안녕하세요, 첫 발을 내딛는 백엔드 개발자 박성호입니다.',
+    icon: faBell,
+  },
+
   contact: [
     {
       title: 'tjdgh1785@naver.com',
@@ -46,10 +52,6 @@ const profile: IProfile.Payload = {
     //   icon: faYoutube,
     // },
   ],
-  notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
-  },
 };
 
 export default profile;

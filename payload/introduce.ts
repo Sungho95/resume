@@ -5,10 +5,15 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor. Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien. Proin bibendum non nibh eu aliquet. In sit amet arcu sed nisi tincidunt ultricies. Fusce magna tellus, egestas at pretium quis, rutrum et ante. Phasellus efficitur lectus felis, sed lacinia enim rhoncus ut. Sed id mi vitae neque aliquet porttitor. Fusce dignissim ipsum urna, at finibus lectus sodales ut. Nulla ut purus vestibulum, dapibus tellus consequat, porttitor purus. Nunc egestas tortor ut vehicula mollis.',
-    'Integer ut libero eu libero mattis rutrum at at urna. Integer non turpis ante. Suspendisse vestibulum odio id libero facilisis gravida. In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus. Quisque ornare eget ex ut congue. Nam vel finibus sem. Phasellus id neque nibh. Nullam turpis velit, pharetra vitae mi non, bibendum maximus urna.',
+    '•  Java, Spring Boot를 기반의 웹 애플리케이션 프로젝트를 개발한 경험이 있습니다.',
+    '•  대학 팀 프로젝트를 통해 웹 서비스를 개발하여 대학 내 경진대회에서 수상한 경험이 있습니다.',
+    '•  대학 졸업 이후 24주 과정의 웹 개발 부트캠프인 코드스테이츠의 백엔드 과정을 수료했습니다.',
+    '•  효율적인 코드에 관심이 많아 현재 redis와 Spring Batch를 활용한 트래픽 처리에 대한 학습을 하고 있습니다.',
+    '•  동료들과 소통하고 지식 공유하는 것을 즐기며, ‘아낌없이 주는 나무’라는 평가를 받았습니다.',
+    '•  기술 블로그를 운영하여 300개 이상의 게시글과 월평균 10,000 이상의 조회 수를 기록하고 있습니다.',
   ],
-  sign: 'Love poem',
+
+  sign: 'SungHo',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,
