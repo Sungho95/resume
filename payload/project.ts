@@ -7,7 +7,7 @@ const project: IProject.Payload = {
       title: '인디고 프로젝트',
       startedAt: '2023-01',
       endedAt: '2023-02',
-      where: '코드스테이츠 메인 프로젝트',
+      where: '코드스테이츠 메인 프로젝트(6인 / 4주)',
       descriptions: [
         {
           content: '[팀장, 백엔드] Redis, Spring Batch, 배포(AWS, Github Actions)',
@@ -31,22 +31,12 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: 'Add Foo Feature in 2019',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            { content: 'Integer non turpis ante' },
-          ],
+          content: '배포 링크',
+          href: 'http://indiego.site/',
         },
         {
-          content: 'Launched Bar Service in 2018',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Suspendisse vestibulum odio id libero facilisis gravida' },
-            {
-              content: 'In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus',
-            },
-          ],
+          content: '깃허브 리포지토리',
+          href: 'https://github.com/codestates-seb/seb41_main_020',
         },
       ],
     },
