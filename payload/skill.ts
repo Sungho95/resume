@@ -1,31 +1,35 @@
 import { ISkill } from '../component/skill/ISkill';
 
-const backend: ISkill.Skill = {
-  category: 'Back-end',
+const language: ISkill.Skill = {
+  category: 'Language',
   items: [
     {
-      title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
-    },
-    {
       title: 'Java',
-      level: 1,
+      // level: 3,
+    },
+  ],
+};
+
+const framwork: ISkill.Skill = {
+  category: 'Framework / Library',
+  items: [
+    {
+      title: 'Spring Boot',
     },
     {
-      title: 'Python',
-      level: 1,
+      title: 'Spring MVC',
     },
     {
-      title: 'C/C++',
-      level: 1,
+      title: 'Spring Security',
+    },
+    {
+      title: 'Spring Batch',
+    },
+    {
+      title: 'JPA',
+    },
+    {
+      title: 'Querydsl',
     },
   ],
 };
@@ -35,41 +39,44 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
-    },
-    {
-      title: 'Oracle',
-      level: 2,
     },
     {
       title: 'Redis',
-      level: 2,
     },
     {
-      title: 'MongoDB',
-      level: 1,
+      title: 'H2',
     },
+    // {
+    //   title: 'Redis',
+    //   level: 2,
+    // },
+    // {
+    //   title: 'MongoDB',
+    //   level: 1,
+    // },
   ],
 };
 
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
+const deploy: ISkill.Skill = {
+  category: 'Deploy',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
+      title: 'AWS EC2',
     },
     {
-      title: 'React.js',
-      level: 2,
+      title: 'AWS S3',
     },
     {
-      title: 'javascript',
-      level: 2,
+      title: 'AWS RDS',
     },
     {
-      title: 'HTML/CSS',
-      level: 2,
+      title: 'AWS CodeDeploy',
+    },
+    {
+      title: 'AWS Route 53',
+    },
+    {
+      title: 'Github Actions',
     },
   ],
 };
@@ -81,26 +88,23 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
-      title: 'Vim',
+      title: 'Git / Github',
     },
     {
-      title: 'Security',
+      title: 'InteliJ',
     },
     {
-      title: 'VS Code',
+      title: 'Notion',
     },
     {
-      title: 'Jira',
-    },
-    {
-      title: 'Confluence',
+      title: 'Slack',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [language, framwork, database, deploy, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
