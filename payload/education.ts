@@ -16,6 +16,12 @@ const education: IEducation.Payload = {
       startedAt: '2014-03',
       endedAt: '2022-02',
     },
+    {
+      title: '화곡고등학교',
+      subTitle: '자연계 졸업(서울시 강서구)',
+      startedAt: '2011-03',
+      endedAt: '2014-02',
+    },
   ],
 };
 
