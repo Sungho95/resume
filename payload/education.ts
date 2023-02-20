@@ -12,7 +12,7 @@ const education: IEducation.Payload = {
     },
     {
       title: '한경대학교',
-      subTitle: '컴퓨터공학과 졸업',
+      subTitle: '컴퓨터공학과 졸업(학사)',
       startedAt: '2014-03',
       endedAt: '2022-02',
     },
