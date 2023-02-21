@@ -35,6 +35,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
           <SkillRow key={index.toString()} skill={skill} index={index} />
         ))}
       </EmptyRowCol>
+      <br />
     </div>
   );
 }
