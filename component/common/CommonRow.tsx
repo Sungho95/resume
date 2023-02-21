@@ -19,13 +19,13 @@ export function CommonRows({
         <Col sm={12} md={3} className="text-md-right">
           <Row>
             <Col md={12}>
-              <h4 style={Style.gray}>{left.title}</h4>
+              <h5 style={Style.gray}>{left.title}</h5>
             </Col>
             {left.subTitle ? <Col md={12}>{left.subTitle}</Col> : ''}
           </Row>
         </Col>
         <Col sm={12} md={9}>
-          {right.title ? <h5>{right.title}</h5> : ''}
+          {right.title ? <h4>{right.title}</h4> : ''}
           {right.subTitle ? <i style={Style.gray}>{right.subTitle}</i> : ''}
           {right.descriptions ? (
             <CommonDescription
