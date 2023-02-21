@@ -10,7 +10,7 @@ export default function SkillRow({
 }: PropsWithChildren<{ skill: ISkill.Skill; index: number }>) {
   return (
     <div>
-      {index > 0 ? <hr /> : ''}
+      {index > 0 ? <hr /> : <br />}
       <Row>
         <Col sm={12} md={3} className="text-md-right">
           <h5 style={Style.gray}>{skill.category}</h5>
@@ -20,7 +20,6 @@ export default function SkillRow({
           {createCalculatedSkillItems(skill.items)}
         </Col>
       </Row>
-      {index === skill.category.length ? <br /> : ''}
     </div>
   );
 }
