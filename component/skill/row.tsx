@@ -20,7 +20,7 @@ export default function SkillRow({
           {createCalculatedSkillItems(skill.items)}
         </Col>
       </Row>
-      {index === skill.category.length ? <br /> : ''}
+      {index === skill.category.length - 1 ? <br /> : ''}
     </div>
   );
 }
