@@ -9,6 +9,7 @@ const experience: IExperience.Payload = {
       position: '백엔드 개발자',
       startedAt: '2023-04',
       descriptions: [
+        '스터디 공간 예약 서비스 및 현대 자동차 IT 솔루션(15 ~ 20명)',
         '현대자동차 캐스퍼 비즈니스 로직 유지보수 및 신규 API 개발',
         '자사 서비스 스터디 모아 2.0 신규 프로젝트 개발',
       ],
