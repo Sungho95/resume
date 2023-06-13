@@ -4,6 +4,46 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '인디고 - 프로젝트 유지보수',
+      startedAt: '2023-03',
+      where: '코드스테이츠 수료 이후 프로젝트 유지보수 활동',
+      descriptions: [
+        {
+          content: '[백엔드 리드, 백엔드] 기능 개발 및 배포',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content: '운영 및 개발 환경 분리(ci/cd 적용)',
+            },
+            {
+              content: '클라이언트 및 서버 https 적용',
+            },
+            {
+              content: '결제 API 연동',
+            },
+            {
+              content: '베타 테스트를 통한 실제 사용자 피드백 반영',
+            },
+            {
+              content: '커뮤니티 게시판 CRUD, JavaMailSender 구현',
+            },
+          ],
+        },
+        {
+          content: '운영 환경 배포 링크',
+          href: 'https://indiego.site/',
+        },
+        {
+          content: '개발 환경 배포 링크',
+          href: 'https://devindiego.site/',
+        },
+        {
+          content: '깃허브 리포지토리',
+          href: 'https://github.com/indiego-project/indiego',
+        },
+      ],
+    },
+    {
       title: '인디고 프로젝트',
       startedAt: '2023-01',
       endedAt: '2023-02',
