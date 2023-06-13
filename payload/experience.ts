@@ -19,7 +19,7 @@ const experience: IExperience.Payload = {
         'JPA',
         'Mybatis',
         'Tibero',
-        'MariaDB',
+        'MySQL',
         'Redis',
         'Jenkins',
         'Docker',

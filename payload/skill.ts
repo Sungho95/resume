@@ -7,6 +7,10 @@ const language: ISkill.Skill = {
       title: 'Java',
       // level: 3,
     },
+    {
+      title: 'Kotlin',
+      // level: 3,
+    },
   ],
 };
 
@@ -29,6 +33,9 @@ const framwork: ISkill.Skill = {
       title: 'JPA',
     },
     {
+      title: 'Mybatis',
+    },
+    {
       title: 'Querydsl',
     },
   ],
@@ -39,6 +46,9 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
+    },
+    {
+      title: 'Tibero',
     },
     {
       title: 'Redis',
@@ -78,6 +88,9 @@ const deploy: ISkill.Skill = {
     {
       title: 'Github Actions',
     },
+    {
+      title: 'Jenkins',
+    },
   ],
 };
 
@@ -98,6 +111,9 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Slack',
+    },
+    {
+      title: 'Jira',
     },
   ],
 };
