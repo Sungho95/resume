@@ -19,13 +19,13 @@ const project: IProject.Payload = {
               content: '클라이언트 및 서버 https 적용',
             },
             {
-              content: '결제 API 연동',
+              content: '결제 API 연동 및 기능 유지보수',
             },
             {
-              content: '베타 테스트를 통한 실제 사용자 피드백 반영',
+              content: '1차 마일스톤 베타 테스트 진행',
             },
             {
-              content: '커뮤니티 게시판 CRUD, JavaMailSender 구현',
+              content: '사용자 설문조사 및 요구사항 반영',
             },
           ],
         },
