@@ -16,7 +16,7 @@ const profile: IProfile.Payload = {
   },
 
   notice: {
-    title: '안녕하세요, 첫 발을 내딛는 백엔드 개발자 박성호입니다.',
+    title: '안녕하세요, 주도적으로 성장하는 백엔드 개발자 박성호입니다.',
     icon: faBell,
   },
 

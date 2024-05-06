@@ -30,14 +30,6 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '운영 환경 배포 링크',
-          href: 'https://indiego.site/',
-        },
-        {
-          content: '개발 환경 배포 링크',
-          href: 'https://devindiego.site/',
-        },
-        {
           content: '깃허브 리포지토리',
           href: 'https://github.com/indiego-project/indiego',
         },
@@ -69,10 +61,6 @@ const project: IProject.Payload = {
               content: '커뮤니티 게시판 CRUD, JavaMailSender 구현',
             },
           ],
-        },
-        {
-          content: '배포 링크',
-          href: 'http://indiego.site/',
         },
         {
           content: '깃허브 리포지토리',
