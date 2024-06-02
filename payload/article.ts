@@ -5,7 +5,7 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: '(2024.02.02) 키트웍스 팀스터디 발표 - Spring HTTP Client',
+      content: '(2024.05.03) 키트웍스 팀스터디 발표 - Spring HTTP Client',
       href: 'http://kit-works.com/spring-http-client/',
     },
     {

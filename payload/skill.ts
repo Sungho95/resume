@@ -11,6 +11,9 @@ const language: ISkill.Skill = {
       title: 'Kotlin',
       // level: 3,
     },
+    {
+      title: 'TypeScript',
+    },
   ],
 };
 
@@ -38,6 +41,12 @@ const framwork: ISkill.Skill = {
     {
       title: 'Querydsl',
     },
+    {
+      title: 'NestJS',
+    },
+    {
+      title: 'TypeORM',
+    },
   ],
 };
 
@@ -55,6 +64,9 @@ const database: ISkill.Skill = {
     },
     {
       title: 'H2',
+    },
+    {
+      title: 'PostgreSQL',
     },
     // {
     //   title: 'Redis',
