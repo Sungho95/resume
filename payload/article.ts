@@ -5,11 +5,15 @@ const article: IArticle.Payload = {
 
   list: [
     {
+      content: '(2024.02.02) 키트웍스 팀스터디 발표 - Spring HTTP Client',
+      href: 'http://kit-works.com/spring-http-client/',
+    },
+    {
       content: '(2024.02.02) 키트웍스 팀스터디 발표 - Go 언어로 디스코드 봇 만들기',
       href: 'http://kit-works.com/go-lang-discord-bot/',
     },
     {
-      content: '(2023.11.10) 키트웍스 팀스터디 발표 - 객체지향 설계 원칙(SOLID',
+      content: '(2023.11.10) 키트웍스 팀스터디 발표 - 객체지향 설계 원칙(SOLID)',
       href: 'http://kit-works.com/solid/',
     },
     {

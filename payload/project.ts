@@ -4,6 +4,37 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '새해복설냥',
+      startedAt: '2023-12',
+      endedAt: '2024-01',
+      where: '메디치 팀 프로젝트(6인)',
+      descriptions: [
+        {
+          content: '[팀원, 백엔드] Type Script, NestJs, TypeORM, PostgreSQL',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content: '편지를 대신 전해주는 고양이라는 컨셉의 토이 프로젝트',
+            },
+            {
+              content: '편지 및 악세사리 설계 및 REST API 개발',
+            },
+            {
+              content: 'Node.js, Nest.js, TypeORM 활용 경험',
+            },
+          ],
+        },
+        {
+          content: '새해복설냥 홈페이지',
+          href: 'https://www.catsnewyear.site/',
+        },
+        {
+          content: '깃허브 리포지토리',
+          href: 'https://github.com/Sungho95/shinnyang-server',
+        },
+      ],
+    },
+    {
       title: '인디고 - 프로젝트 유지보수',
       startedAt: '2023-03',
       where: '코드스테이츠 수료 이후 프로젝트 유지보수 활동',
